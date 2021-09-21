@@ -1,0 +1,48 @@
+    1  free -h
+    2  ping google.com
+    3  ll
+    4  rm -rf accentureDevops20thSep2021
+    5  ll
+    6  clear
+    7  git clone https://github.com/pavansw/accentureDevops20thSep2021.git
+    8  ll
+    9  cd accentureDevops20thSep2021/
+   10  ll
+   11  ls -l
+   12  ll
+   13  git fetch
+   14  git pull
+   15  clear
+   16  ll
+   17  git pull
+   18  ls
+   19  git log
+   20  touch newfile.rk
+   21  ll
+   22  git add newfile.rk 
+   23  git status
+   24  git commit -m "added newfile.rk now"
+   25  git push
+   26  cd
+   27  ll
+   28  rm -rf accentureDevops20thSep2021
+   29  ll
+   30  ssh-keygen 
+   31  pwd
+   32  ls -al
+   33  cd .ssh/
+   34  cd ..
+   35  cat .ssh/id_rsa.pub 
+   36  git clone git@github.com:pavansw/accentureDevops20thSep2021.git
+   37  cd accentureDevops20thSep2021/
+   38  ll
+   39  touch newfile.rk
+   40  git add newfile.rk 
+   41  git status
+   42  git commit -m "new file added newfile.rk"
+   43  git log
+   44  git push
+   45  git log
+   46  clear
+   47  cd
+   48  history > hist_output.txt
